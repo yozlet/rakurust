@@ -1,0 +1,13 @@
+{
+  "name": "Rakurust",
+  "description": "Tiny Rust-shaped subset in Raku, emitting LLVM IR",
+  "version": "0.0.1",
+  "perl": "6.d",
+  "provides": {
+    "Rakurust": "lib/Rakurust.rakumod",
+    "Rakurust::AST": "lib/Rakurust/AST.rakumod",
+    "Rakurust::Grammar": "lib/Rakurust/Grammar.rakumod",
+    "Rakurust::EmitLLVM": "lib/Rakurust/EmitLLVM.rakumod"
+  },
+  "license": "Artistic-2.0"
+}

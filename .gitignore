@@ -1,0 +1,7 @@
+t/tmp/
+*.ll
+lib/.precomp/
+out-bin
+t/*_bin
+scratch-bin
+.DS_Store
