@@ -2,6 +2,8 @@
 
 This file is the living catalog of **Raku language features** the compiler uses, and where they appear. Extend it whenever you introduce or substantially rely on a new feature.
 
+For project goals and roadmap, see **[PLAN.md](PLAN.md)**.
+
 ## Raku documentation sources
 
 - **Rendered site:** [docs.raku.org](https://docs.raku.org/) (updated from the upstream repo; anchors can move between releases).
