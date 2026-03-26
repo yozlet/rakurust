@@ -27,10 +27,10 @@ Emit LLVM IR to **stdout**:
 raku bin/rakurust.raku t/fixtures/precedence.rs
 ```
 
-Write IR to a file:
+Write IR to a file (options must precede the source file):
 
 ```bash
-raku bin/rakurust.raku t/fixtures/literal.rs -o out.ll
+raku bin/rakurust.raku -o out.ll t/fixtures/literal.rs
 clang -Wno-override-module out.ll -o a.out && ./a.out; echo $?
 ```
 
